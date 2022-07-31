@@ -1,7 +1,11 @@
 import React from "react";
 
 const NotFoundBlock = () => {
-    return <h1>Ничего не найдено</h1>;
+  return (
+    <div className="container">
+      <h1>Ничего не найдено</h1>
+    </div>
+  );
 };
 
 export default NotFoundBlock;
